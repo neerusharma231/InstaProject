@@ -1,0 +1,110 @@
+.rightSideHome{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    padding-top: 30px;
+    width: 100%;
+}
+.imageDivRightSide{
+    width:56px;
+    height: 56px;
+    border-radius: 100%;
+    /* border: 1px solid; */
+}
+.topProfileRight{
+    display: flex;
+    width: 80%;
+    align-items: center;
+
+    justify-content: space-between;
+}
+.imageRightSideProfile{
+    /* width: 45px; */
+    /* height: 45px; */
+    width: 100%;
+    border-radius: 100%;
+   
+}
+.userNameBlock{
+display: flex;
+flex-direction: column;
+}
+.userNameRightSide{
+    font-size: 14px;
+    font-weight: 500;
+}
+.userFullName{
+    color: #999999;
+    font-size: 14px;
+}
+.switchBtn{
+    color: #0095F6;
+    font-weight:500;
+    font-size: 12px;
+}
+.leftRightProfile{
+    display: flex;
+    gap: 20px;
+}
+.bottomRightSide{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 80%;
+}
+.suggestedBlock{
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 500;
+}
+.followBlockRightSide{
+    display: flex;
+    padding-top: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+.topProfileRightBottom{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .single-banner {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .single-banner img {
+    max-width: 100%;
+    height: auto;
+  } */
+   /* Carousel.css */
+
+   /* Carousel.css */
+
+.carousel {
+    overflow: hidden;
+    width: 80%; 
+    text-align: center;
+    margin: 20px auto; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    display: block;
+  }
+  

@@ -1,0 +1,253 @@
+.logn-header {
+    /* border: 2px solid; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    flex-direction: column;
+}
+.get-app {
+    /* margin-top: 3px; */
+    padding-top: 20px;
+    font-size: 15px;
+}
+.logn-head {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.micro-play {
+    display: flex;
+    gap: 10px;
+        margin-top: 10px;
+}
+
+.insta-logo {
+    width: 200px;
+    height: auto;
+    filter: brightness(2) contrast(1.5); /* Makes logo brighter and more contrasted */
+    border: 2px solid white; /* Optional: add border around logo */
+    padding: 10px; /* Optional: add padding for spacing */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+  .lgn-content {
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(236 235 235);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.logn-frm {
+    display: flex;
+    gap: 10px;
+    width: 256px;
+    /* border: 5px pink solid; */
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input.txt {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+.login-btn {
+    width: 280px;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  .login-btn:hover {
+    background-color: #0077cc; /* Darker blue on hover */
+  }
+  /* OR Separator Styling */
+  .or-separator {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 283px;
+}
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .or-text {
+    margin: 0 10px;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .facebook-logn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1877f2;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    /* width: 80%; */
+    font-weight: bold;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+  /* Facebook Icon Styling */
+  .facebook-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .micro {
+    width: 130px;
+}
+  .sgn-up {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid rgb(236 235 235);
+    /* box-shadow: 0 5px 25px #aeaeae; */
+}
+.homepge {
+    width: 470px;
+    margin-top: -85px;
+}
+img.overlay-img {
+    width: 246px;
+    margin-top: 25px;
+    margin-left: 157px;
+}
+@media (max-width:575px){
+    .lgn-content {    
+            width: 90%;
+        font-size: 14px;
+    }
+    .sgn-up {
+        width: 100%;
+        font-size: 14px;
+    }
+    .facebook-logn {
+        font-size: 17px;
+    }
+    img.overlay-img {
+      
+        display: none;
+        
+    }
+    .get-app {
+        font-size: 14px;
+    }
+    
+    .homepge {
+        display: none;
+        width: 100%;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .homepge {
+        width: 100%;
+        margin-top: 0;
+        display: none;
+    }
+    .lgn-content {
+        width: 60%;
+        font-size: 14px;
+    }
+    .sgn-up {
+        width: 67%;
+        font-size: 14px;
+    }
+    .facebook-logn {
+        font-size: 17px;
+    }
+    img.overlay-img {
+      
+        display: none;
+        
+    }
+    .get-app {
+        font-size: 14px;
+    }
+    .sgn-up {
+        width: 100%;
+        font-size: 16px;
+        padding-left: 12px;
+        padding-right: 13px;
+    }
+    .lgn-content {
+        width:100%;
+        font-size: 14px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .lgn-content {
+        width: 90%;
+        font-size: 17px;
+    }
+    .sgn-up {
+        width: 100%;
+        font-size: 17px;
+    }
+    .facebook-logn {
+        font-size: 18px;
+    }
+    img.overlay-img {
+        display: none;
+    }
+    .homepge {
+        width: 100%;
+        margin-top: 0;
+        display: none;
+    }
+
+}
+@media (min-width:991px) and (max-width:1200px){
+    .homepge {
+        width: 100%;
+        margin-top: 0;
+        display: none;
+    }
+    .lgn-content {
+        width: 90%;
+        font-size: 20px;
+    }
+    .sgn-up {
+        width: 100%;
+        font-size: 20px;
+    }
+    .facebook-logn {
+        font-size: 16px;
+    } 
+    img.overlay-img {
+      
+        display: none;
+        
+    }
+}

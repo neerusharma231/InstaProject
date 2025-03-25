@@ -1,0 +1,299 @@
+.mainpage {
+    display: flex;
+    gap: 5px;
+}
+.middleHomeSide{
+    width:60%;
+    /* border: 1px solid; */
+    /* padding-left: 16%; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Ensure positioning for control buttons */
+    overflow: hidden; 
+    justify-content: center;
+}
+.storyBlock{
+    width: 630px;
+    /* border:1px solid; */
+    height: 120px;
+    display: flex;
+    align-items: center;
+    overflow-x:hidden;
+    gap:0px;
+
+}
+/* .storyBlock::-webkit-scrollbar{
+display: none;
+} */
+.storyBlock::-webkit-scrollbar{
+    display: none;
+}
+.storyContainer {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.storyParticular{
+    width: 66px;
+    height: 66px;
+    /* border: 1px solid ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px; 
+}
+.imageDiv{
+    width:56px;
+    height:56px;
+    border-radius: 100%;
+    padding: 2px;
+    border: 2px solid red;
+}
+.statusImg{
+    width:100%;
+    height:56px;
+    border-radius: 100%;
+}
+.profileName{
+    font-size: 10px;
+
+}
+.carouselControl {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .carouselControl.prev {
+    left: 12%;
+    top: 55px;
+    width: 30px;
+    border-radius: 50%;
+    color: black;
+    background-color: #eaeaea;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .carouselControl.next {
+    right: 9%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 30px;
+    background-color: #eaeaea;
+    top: 55px;
+    color: black;
+  }
+
+/* --------POST SECTION-------- */
+.postSection{
+    /* border: 1px solid; */
+    width: 60%;
+}
+.post {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.comment-section {
+    width: 250px;
+    /* background-color: #f9f9f9; */
+    border-left: 1px solid #ddd;
+    padding: 10px;
+    height: 100%;
+}
+.postInfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+.postInfoImg{
+    width: 40px;
+    height:43px;
+    border-radius: 100%;
+   
+}
+.postInfousername{
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.timingInfo{
+    color: #999999;
+    font-size: 14px;
+}
+.postImage{
+    width:100%;
+
+}
+.iconsBlock{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.leftIcon{
+    display: flex;
+    gap: 15px;
+
+}
+.likeImg{
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+}
+.imagesLike{
+    position: relative;
+}
+.likeSection{
+    width: 100%;
+}
+.likeImg2{
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 3%;
+}
+.noOfLikes{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 35px;
+}
+.postAbout{
+    width: 100%;
+    margin-top: 10px;
+display: flex;
+}
+.postAboutName{
+    font-size: 14px;
+    font-weight: 500;
+}
+.InfoComment{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.noOfComment{
+    color: #999999;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.addComment{
+    color: #999999;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.insta_message1{
+    width: 1em;
+    height: 1em;
+    /* display: inline-block; */
+
+    font-size: 1.5rem;
+    font-size: 25px;
+}
+.insta_share{
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+  
+    font-size: 25px;
+    margin: 0 20px 0 0; 
+}
+.App {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    display: flex;
+   }
+   .leftSideHome{
+       width: 15%;
+       padding: 25px 10px;
+       position: relative;
+  
+   }
+   .middleSide{
+      width: 50%;
+       flex-direction: column;
+       /* border-left: 1px solid #e1e1e1; */
+   }
+   .rightSide{
+      width: 25%;
+      /* position: fixed; */
+      top: 0;
+      right: 0;
+   }
+   .midsec-posts {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timeAgo{
+    font-size: 14px;
+    margin-left: 0px
+}
+.post-wrapper {
+    margin-bottom: 20px;
+    gap: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.posting_commt{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 323px;
+}
+.comment-content {
+    height: 89%;
+}
+.social-comment-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding: 3px;
+    margin-top: -7px;
+}
+.comment_area {
+    width: 100%;
+    height: 85%;
+}input.commt_prt {
+    border: 0;
+}.post_sbmted
+{
+        border: none;
+        color: #1010f7;
+        background: none;
+}

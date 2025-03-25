@@ -1,0 +1,53 @@
+.dragpc-img {
+    margin: 0 auto;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgdg {
+    margin: 0 auto;
+    width: 85px !important;
+    height: 85px !important;
+    color: #2b2b2b;
+}
+.paradg {
+    margin: 0 auto !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    text-align: center;
+}
+button.dgbtnx {
+    width: 110px;
+    padding: 10px;
+    margin-top: 10px !important;
+    margin: 0 auto;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dragpc-img:focus-visible {
+    outline: none;
+}
+  
+
+.cptn-otr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    gap: 15px;
+}
+.cption {
+    height: 100%;
+}
+.capimg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}

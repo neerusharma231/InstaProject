@@ -1,0 +1,54 @@
+{
+    "story":[
+        {
+    "name":"Kamala Harris",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNArE_r45PYssspCTOmrvPAdj0IJvyh-EYJA&s"
+},
+{
+    "name":"Alexandria ",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Alexandria_Ocasio-Cortez_Official_Portrait.jpg/1200px-Alexandria_Ocasio-Cortez_Official_Portrait.jpg"
+},
+ {
+    "name": "Joe Biden",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZzQWl3vNzZGjiz4x4i360H2j9UW84XL2RDKOZOR__C_SbgCyCLaZfmX7fCY2htOUFxfA&usqp=CAU"
+ },
+ {
+    "name":"Bernie Sanders ",
+    "img":"https://cdn.britannica.com/51/132851-050-D6CA13B6/Bernie-Sanders-2007.jpg"
+ },
+ {
+    "name":"Tulsi Gabbard ",
+    "img":"https://s3.amazonaws.com/tesla-media/speaker_media/asset/44041/portrait_xl_70_8088A97E-552D-49A8-8C16-92B6F4534E21.jpg"
+ },
+ 
+ {
+    "name": "Zuckerberg",
+    "img":"https://waterfordwhispersnews.com/wp-content/uploads/2015/09/o-MARK-ZUCKERBERG-facebook-e1487344716152.jpg"
+ },
+ {
+    "name":"Josh ",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrcG6skH8f35NisAjqOPh6NP87VkwrPatCQ&s"
+ },
+ {
+    "name":"Josh ",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTTSou-WdZdobPzTcZaYSkU8vUBSocNJjeig&s"
+ },
+ {
+   "name":"Tulsi Gabbard ",
+   "img":"https://s3.amazonaws.com/tesla-media/speaker_media/asset/44041/portrait_xl_70_8088A97E-552D-49A8-8C16-92B6F4534E21.jpg"
+},
+
+{
+   "name": "Zuckerberg",
+   "img":"https://waterfordwhispersnews.com/wp-content/uploads/2015/09/o-MARK-ZUCKERBERG-facebook-e1487344716152.jpg"
+},
+{
+   "name":"Josh ",
+   "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrcG6skH8f35NisAjqOPh6NP87VkwrPatCQ&s"
+},
+{
+   "name":"Josh  ",
+   "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTTSou-WdZdobPzTcZaYSkU8vUBSocNJjeig&s"
+}
+]
+}
