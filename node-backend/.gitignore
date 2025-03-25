@@ -1,0 +1,39 @@
+# Node modules (dependencies folder)
+node_modules/
+
+# Environment variables (API keys, secrets, etc.)
+.env
+
+# Logs and Debugging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build and Distribution folders
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-generated system files
+.DS_Store
+Thumbs.db
+
+# Process ID files
+pids/
+*.pid
+*.seed
+
+# Dependency lock files (if you want to ignore them)
+package-lock.json
+yarn.lock
