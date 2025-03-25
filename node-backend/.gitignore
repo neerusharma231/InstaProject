@@ -37,3 +37,6 @@ pids/
 # Dependency lock files (if you want to ignore them)
 package-lock.json
 yarn.lock
+
+# 🚀 Add your uploads folder here 👇
+uploads/

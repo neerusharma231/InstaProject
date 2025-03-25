@@ -1,0 +1,28 @@
+# Node modules (dependencies folder)
+node_modules/
+
+# Environment variables (API keys, secrets, etc.)
+.env
+
+# Package lock files (to prevent unnecessary tracking)
+package-lock.json
+yarn.lock
+
+# Build and Dist files (generated after build)
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Editor settings (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# System files (macOS & Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore "New folder"
+New folder/
